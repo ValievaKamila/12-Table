@@ -1,0 +1,46 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 50px 100px;
+}
+
+th {
+    background-color: rgb(157, 221, 247);
+}
+
+tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(223, 222, 222);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(250, 249, 249);
+}
+
+ thead tr {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+} 
+
+tbody th {
+    position: sticky;
+    left: 0;
+} 
